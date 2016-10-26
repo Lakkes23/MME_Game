@@ -26,4 +26,14 @@
         android:layout_marginTop="34dp"
         android:id="@+id/textView2" />
 
+    <TextView
+        android:text="First Change by Jan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="35dp"
+        android:id="@+id/textView3"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"/>
+
 </RelativeLayout>
