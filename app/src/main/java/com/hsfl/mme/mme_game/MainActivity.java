@@ -18,13 +18,13 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // in xml: onClick="startGameActivity"
         button = (Button) findViewById(R.id.button);
     }
 
     public void startGameActivity(View view)
     {
         Intent intent = new Intent(this, GameActivity.class);
-        //intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
 }
