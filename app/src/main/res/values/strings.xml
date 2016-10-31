@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MME_Game</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">ELECTRIFIED\nMINIGOLF\nMADNESS</string>
+    <string name="but">Single player</string>
 </resources>
