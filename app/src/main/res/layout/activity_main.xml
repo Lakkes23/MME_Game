@@ -10,12 +10,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hsfl.mme.mme_game.MainActivity">
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:background="@drawable/image_button_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="startGameActivity"/>
     <Button
         android:id="@+id/button"
         android:text="@string/but"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
+        android:onClick="startGameActivity"
         android:layout_centerHorizontal="true"
-        android:onClick="startGameActivity"/>
+        android:layout_marginTop="60dp"/>
+
 </RelativeLayout>

@@ -8,7 +8,6 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity
 {
-    public final static String EXTRA_MESSAGE = "com.hsfl.mme.mme_game.MESSAGE";
 
     private Button button;
 
