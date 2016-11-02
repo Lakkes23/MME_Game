@@ -48,4 +48,18 @@
         android:layout_marginLeft="13dp"
         android:layout_marginStart="13dp" />
 
+
+    <TextView
+        android:text="First Change by Oliver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_marginTop="44dp"
+        android:layout_alignLeftt="@+id/textView"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp" />
+
 </RelativeLayout>
