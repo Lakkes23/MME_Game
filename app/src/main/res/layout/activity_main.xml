@@ -36,4 +36,16 @@
         android:layout_alignRight="@+id/textView2"
         android:layout_alignEnd="@+id/textView2"/>
 
+    <TextView
+        android:text="First Change by Peer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
 </RelativeLayout>
